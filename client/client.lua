@@ -122,7 +122,7 @@ CreateThread(function()
             end
             NetworkOverrideClockTime(hour, minute, second)          --Send hour included seconds to network clock time
         else
-            Wait(1000)
+            Wait(2000)
         end
     end
 end)
